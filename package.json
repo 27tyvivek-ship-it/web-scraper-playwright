@@ -1,0 +1,19 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "main": "dist/scraper.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/scraper.js",
+    "dev": "ts-node src/scraper.ts"
+  },
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "playwright": "^1.43.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
